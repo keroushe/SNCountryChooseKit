@@ -2883,6 +2883,36 @@
 			};
 			name = Release;
 		};
+		384A224510B39C9014D776AA29AD04F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9F4FF1285416B4AEAE7EBADC97AA0F /* SNCountryChooseKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit.modulemap";
+				PRODUCT_MODULE_NAME = SNCountryChooseKit;
+				PRODUCT_NAME = SNCountryChooseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6599C9EA1C9BD889F892514ECADF0486 /* FBSnapshotTestCase.debug.xcconfig */;
@@ -3036,6 +3066,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6E1708642CD0E03BD6C6A6DAAEC37C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D982A49F6BEB8C3DA3F0E08440CD74 /* SNCountryChooseKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit.modulemap";
+				PRODUCT_MODULE_NAME = SNCountryChooseKit;
+				PRODUCT_NAME = SNCountryChooseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7212CAF652D45E764517823FE2C97E75 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3316,36 +3377,6 @@
 			};
 			name = Release;
 		};
-		E6466D00E42B3450029CB847F9A6C689 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA9F4FF1285416B4AEAE7EBADC97AA0F /* SNCountryChooseKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit.modulemap";
-				PRODUCT_MODULE_NAME = SNCountryChooseKit;
-				PRODUCT_NAME = SNCountryChooseKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E9B0CF34850B8E75A55EE69CDD77B49C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B9E97A2F37AEC4BB8BDF6E4A5DE7291 /* Masonry.debug.xcconfig */;
@@ -3375,37 +3406,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		F2608CFE1A03567570AC657D8D0B63DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7D982A49F6BEB8C3DA3F0E08440CD74 /* SNCountryChooseKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SNCountryChooseKit/SNCountryChooseKit.modulemap";
-				PRODUCT_MODULE_NAME = SNCountryChooseKit;
-				PRODUCT_NAME = SNCountryChooseKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -3449,8 +3449,8 @@
 		78BE551BB30DC9896EAA478146545F79 /* Build configuration list for PBXNativeTarget "SNCountryChooseKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6466D00E42B3450029CB847F9A6C689 /* Debug */,
-				F2608CFE1A03567570AC657D8D0B63DD /* Release */,
+				384A224510B39C9014D776AA29AD04F4 /* Debug */,
+				6E1708642CD0E03BD6C6A6DAAEC37C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

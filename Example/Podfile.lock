@@ -9,7 +9,7 @@ PODS:
   - SDWebImage (5.2.5):
     - SDWebImage/Core (= 5.2.5)
   - SDWebImage/Core (5.2.5)
-  - SNCountryChooseKit (0.1.0):
+  - SNCountryChooseKit (0.1.1):
     - KHLocationManage (= 0.1.0)
     - Masonry (~> 1.1.0)
     - SDWebImage (~> 5.2.3)
@@ -44,7 +44,7 @@ SPEC CHECKSUMS:
   KHLocationManage: 6fa26e273d2dd213190faa99dfd76f6daccf5a59
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: 4eabf2fa6695c95c47724214417a9c036c965e4a
-  SNCountryChooseKit: eb21ddc84a03931cf8325bdf28a4ceec5d1a5436
+  SNCountryChooseKit: c2fb1ad3446ca2ae70d53fe8ed8a7e88563ab3b0
   SNCountryCodeFlagManage: c2f01acd2cca3fd22f756f2263ca1793973810a1
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
