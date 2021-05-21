@@ -1,4 +1,5 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/KHLocationManage" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/SNCountryChooseKit" "${PODS_CONFIGURATION_BUILD_DIR}/SNCountryCodeFlagManage" "${PODS_CONFIGURATION_BUILD_DIR}/YYKit" "${PODS_ROOT}/YYKit/Vendor"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/KHLocationManage/KHLocationManage.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SNCountryChooseKit/SNCountryChooseKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SNCountryCodeFlagManage/SNCountryCodeFlagManage.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYKit/YYKit.framework/Headers"
