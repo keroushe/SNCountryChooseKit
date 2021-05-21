@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SNCountryChooseKit'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'SNCountryChooseKit 是一个国家、省、市选择模块，包含自定定位获取'
 
 # This description is used to generate tags and improve search results.
@@ -29,9 +29,8 @@ SNCountryChooseKit 是一个国家、省、市选择模块，包含自定定位�
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
 
-  s.source_files = 'SNCountryChooseKit/Classes/**/*.*'
+  s.source_files = 'SNCountryChooseKit/Classes/**/*'
   s.resource     = 'SNCountryChooseKit/Assets/SNCountryChooseKit.bundle'
   
   # s.resource_bundles = {
