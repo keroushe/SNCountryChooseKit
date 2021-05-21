@@ -18,7 +18,7 @@
 #import "SNCityCListVC.h"
 #import "SNCountryChooseLanHandle.h"
 #import "NSString+SNCountryChoose.h"
-#import <YYKit/NSObject+YYModel.h>
+#import <YYModel/NSObject+YYModel.h>
 
 @interface SNCountryListVC ()<UITableViewDataSource, UITableViewDelegate, KHLocationManageDelegate>
 
@@ -123,7 +123,7 @@ static NSString *const SNCountryListCellIdentifier = @"SNCountryListCellIdentifi
         }
         NSDictionary *rootDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingFragmentsAllowed error:nil];
         
-        self.listData = [SNCountryListData modelWithDictionary:rootDict];
+        self.listData = [SNCountryListData yy_modelWithDictionary:rootDict];
         
         // 将数据进行排序分组
         [self transferDataSource:self.listData.list];
