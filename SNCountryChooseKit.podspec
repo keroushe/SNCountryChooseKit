@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SNCountryChooseKit'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'SNCountryChooseKit 是一个国家、省、市选择模块，包含自定定位获取'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ SNCountryChooseKit 是一个国家、省、市选择模块，包含自定定位�
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SNCountryChooseKit/Classes/**/*.{h,m}'
+  s.source_files = 'SNCountryChooseKit/Classes/**/*.*'
   s.resource     = 'SNCountryChooseKit/Assets/SNCountryChooseKit.bundle'
   
   # s.resource_bundles = {
