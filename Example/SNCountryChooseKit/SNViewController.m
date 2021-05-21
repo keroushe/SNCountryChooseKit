@@ -7,6 +7,7 @@
 //
 
 #import "SNViewController.h"
+#import <SNCountryChooseKit/SNCountryListVC.h>
 
 @interface SNViewController ()
 
@@ -18,6 +19,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    SNCountryListVC *listVC = [[SNCountryListVC alloc] init];
+    listVC.chooseCityCompletion = ^(KHLocationInfo * _Nonnull locationInfo) {
+        NSLog(@"locationInfo = %@", locationInfo);
+    };
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:listVC];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+    
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

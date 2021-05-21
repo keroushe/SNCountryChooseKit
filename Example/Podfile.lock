@@ -1,0 +1,53 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - KHLocationManage (0.1.0)
+  - Masonry (1.1.0)
+  - SDWebImage (5.2.5):
+    - SDWebImage/Core (= 5.2.5)
+  - SDWebImage/Core (5.2.5)
+  - SNCountryChooseKit (0.1.0):
+    - KHLocationManage (= 0.1.0)
+    - Masonry (~> 1.1.0)
+    - SDWebImage (~> 5.2.3)
+    - SNCountryCodeFlagManage (= 0.1.0)
+    - YYKit (~> 1.0.9)
+  - SNCountryCodeFlagManage (0.1.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SNCountryChooseKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - SDWebImage
+    - YYKit
+  https://github.com/keroushe/KHSpecs.git:
+    - KHLocationManage
+    - SNCountryCodeFlagManage
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SNCountryChooseKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  KHLocationManage: 6fa26e273d2dd213190faa99dfd76f6daccf5a59
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 4eabf2fa6695c95c47724214417a9c036c965e4a
+  SNCountryChooseKit: eb21ddc84a03931cf8325bdf28a4ceec5d1a5436
+  SNCountryCodeFlagManage: c2f01acd2cca3fd22f756f2263ca1793973810a1
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: b9eb403cd8c70c5155a67eb7bed3c4a4935ca53c
+
+COCOAPODS: 1.10.1

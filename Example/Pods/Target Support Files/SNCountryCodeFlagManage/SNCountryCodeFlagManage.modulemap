@@ -1,0 +1,6 @@
+framework module SNCountryCodeFlagManage {
+  umbrella header "SNCountryCodeFlagManage-umbrella.h"
+
+  export *
+  module * { export * }
+}

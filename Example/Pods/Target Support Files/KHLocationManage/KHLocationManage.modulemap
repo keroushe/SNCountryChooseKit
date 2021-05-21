@@ -1,0 +1,6 @@
+framework module KHLocationManage {
+  umbrella header "KHLocationManage-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module SNCountryChooseKit {
+  umbrella header "SNCountryChooseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

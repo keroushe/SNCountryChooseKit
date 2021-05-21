@@ -1,3 +1,6 @@
+source 'https://github.com/CocoaPods/Specs.git'
+# 私有库
+source 'https://github.com/keroushe/KHSpecs.git'
 use_frameworks!
 
 platform :ios, '9.0'
