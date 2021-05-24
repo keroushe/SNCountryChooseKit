@@ -1,6 +1,6 @@
 {
   "name": "SNCountryChooseKit",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "summary": "SNCountryChooseKit 是一个国家、省、市选择模块，包含自定定位获取",
   "description": "SNCountryChooseKit 是一个国家、省、市选择模块，包含自定定位获取",
   "homepage": "https://github.com/keroushe/SNCountryChooseKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/keroushe/SNCountryChooseKit.git",
-    "tag": "0.1.9"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,8 +28,8 @@
     "SDWebImage": [
       "~> 5.2.3"
     ],
-    "YYModel": [
-      "~> 1.0.4"
+    "MJExtension": [
+
     ],
     "SNCountryCodeFlagManage": [
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SNCountryChooseKit'
-  s.version          = '0.1.9'
+  s.version          = '0.2.0'
   s.summary          = 'SNCountryChooseKit 是一个国家、省、市选择模块，包含自定定位获取'
 
 # This description is used to generate tags and improve search results.
@@ -41,7 +41,7 @@ SNCountryChooseKit 是一个国家、省、市选择模块，包含自定定位�
   s.frameworks = 'UIKit'
   s.dependency 'Masonry', '~> 1.1.0'
   s.dependency 'SDWebImage', '~> 5.2.3'
-  s.dependency 'YYModel', '~> 1.0.4'
+  s.dependency 'MJExtension'
   s.dependency 'SNCountryCodeFlagManage'
   s.dependency 'KHLocationManage'
 end

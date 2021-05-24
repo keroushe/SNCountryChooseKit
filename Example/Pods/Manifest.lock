@@ -6,17 +6,17 @@ PODS:
     - FBSnapshotTestCase/Core
   - KHLocationManage (0.1.0)
   - Masonry (1.1.0)
+  - MJExtension (3.2.4)
   - SDWebImage (5.2.5):
     - SDWebImage/Core (= 5.2.5)
   - SDWebImage/Core (5.2.5)
-  - SNCountryChooseKit (0.1.9):
+  - SNCountryChooseKit (0.2.0):
     - KHLocationManage
     - Masonry (~> 1.1.0)
+    - MJExtension
     - SDWebImage (~> 5.2.3)
     - SNCountryCodeFlagManage
-    - YYModel (~> 1.0.4)
   - SNCountryCodeFlagManage (0.1.0)
-  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -25,8 +25,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Masonry
+    - MJExtension
     - SDWebImage
-    - YYModel
   https://github.com/keroushe/KHSpecs.git:
     - KHLocationManage
     - SNCountryCodeFlagManage
@@ -41,10 +41,10 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   KHLocationManage: 6fa26e273d2dd213190faa99dfd76f6daccf5a59
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
   SDWebImage: 4eabf2fa6695c95c47724214417a9c036c965e4a
-  SNCountryChooseKit: 80f54ef303da49a8d7a69b938302a10463d4cfa5
+  SNCountryChooseKit: a924584654898090b7ed60521bd5f3f6a5c7adef
   SNCountryCodeFlagManage: c2f01acd2cca3fd22f756f2263ca1793973810a1
-  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: b9eb403cd8c70c5155a67eb7bed3c4a4935ca53c
 

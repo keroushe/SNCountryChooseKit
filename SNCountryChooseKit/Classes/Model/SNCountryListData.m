@@ -39,6 +39,11 @@
     return @{@"list" : [SNCountryListCchildsData class]};
 }
 
++ (NSDictionary *)mj_objectClassInArray
+{
+    return @{@"list" : [SNCountryListCchildsData class]};
+}
+
 @end
 
 @implementation SNCountryListClistData
@@ -54,6 +59,11 @@
 }
 
 + (NSDictionary *)modelContainerPropertyGenericClass
+{
+    return @{@"list" : [SNCountryListPchildsData class]};
+}
+
++ (NSDictionary *)mj_objectClassInArray
 {
     return @{@"list" : [SNCountryListPchildsData class]};
 }
@@ -77,6 +87,11 @@
     return @{@"list" : [SNCountryListClistData class]};
 }
 
++ (NSDictionary *)mj_objectClassInArray
+{
+    return @{@"list" : [SNCountryListClistData class]};
+}
+
 @end
 
 @implementation SNCountryListData
@@ -92,6 +107,11 @@
 }
 
 + (NSDictionary *)modelContainerPropertyGenericClass
+{
+    return @{@"list" : [SNCountryListCountryData class]};
+}
+
++ (NSDictionary *)mj_objectClassInArray
 {
     return @{@"list" : [SNCountryListCountryData class]};
 }
